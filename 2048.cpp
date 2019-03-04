@@ -4,6 +4,7 @@
 #include <fstream>
 #include <vector>
 #include <iomanip>
+#inlclude <ctime>
 
 int twod_to_oned(int row, int col, int rowlen);
 void print_grid(const std::vector<int>& v);
